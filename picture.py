@@ -35,10 +35,15 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(300, 300, thinline, blue)
 Sprite(rectangle, (400, 200))
-#This is for the window
+#This is for the left window
 thinline = LineStyle(3, black)
 ellipse = EllipseAsset(40,40, thinline, black)
-Sprite(ellipse, (450, 250))
+Sprite(ellipse, (430, 250))
+#Right window
+thinline = LineStyle(3, black)
+ellipse = EllipseAsset(40,40, thinline, black)
+Sprite(ellipse, (600, 250))
+
 
 
 # add your code here /\  /\  /\
