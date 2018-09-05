@@ -31,10 +31,15 @@ red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
-
+#This is for the square
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(300, 300, thinline, blue)
 Sprite(rectangle, (400, 200))
+#This is for the window
+thinline = LineStyle(3, black)
+ellipse = EllipseAsset(40,40, thinline, black)
+Sprite(ellipse, (450, 250))
+
 
 # add your code here /\  /\  /\
 
